@@ -1,59 +1,67 @@
 .casa {
-    border: 1px solid black;
     width: 500px;
-    height: 400px;
+    height: 300px;
     margin: auto;
-
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 75% 1fr;
     grid-template-rows: 1fr 1fr;
 }
-.segundo-nivel {
-    background-color: red;
-    background-size: 50%;
-    
+
+.cuarto-segundo-nivel {
+    background-image: url('../assets/pngtree-cedar-shingles-showcasing-the-richness-of-wooden-texture-picture-image_15228803.jpg');
+
     display: flex;
+    justify-content: center;
     align-items: center;
-    justify-content: center;
 }
-.ventana{
-    width: 90%;
-    height: 90%;
-    background-color: rgb(138,  255, 255);
-}
-.primer-nivel {
-    background-color: yellow;
-    display: flex;
-    justify-content: center;
-    align-items: end;
-}
-.puerta {
-    width: 80px;
-    height: 130px;
-    background-color: brown;
-}
-.garage {
-   background-color: purple; 
-   display: flex;
-   justify-content: center;
-   align-items: end;
-}
-.porton {
-    width: 90%;
+
+.ventana {
+    background-image: url('../assets/mirror-surface-background-transparent-glass-260nw-2567439943.jpg');
+    width: 95%;
     height: 80%;
-    background-color: white;
+    border-radius: 5px;
 }
+
 .techo {
     display: flex;
     align-items: end;
 }
+
 .pared {
     width: 100%;
-    height: 25px;
-    background-color: gray;
+    height: 25%;
+
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
 }
 .pared div {
+    background-image: url('../assets/depositphotos_13932089-stock-photo-vertical-bricks.jpg');
     border: 1px solid black;
 }
+
+.entrada {
+    background-image: url('../assets/9ce3704323ea2cb289f7b7b13d742e76.jpg');
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+.puerta {
+    background-image: url('../assets/pngtree-wooden-plank-texture-wall-background-image_306975.jpg');
+    width: 75px;
+    height: 120px;
+}
+
+.garage {
+    background-image: url('../assets/d7b017a13a08423a5f2e816ee1f0f6bf.jpg');
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+.porton {
+    width: 90%;
+    height: 90%;
+    background-image: url('../assets/pngtree-wooden-plank-texture-wall-background-image_306975.jpg');
+}
+
